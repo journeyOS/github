@@ -1,0 +1,87 @@
+[submodule "region_classifier"]
+	path = region_classifier
+	url = https://github.com/journeyOS/region_classifier.git
+[submodule "XiaoMiFlashSale"]
+	path = XiaoMiFlashSale
+	url = https://github.com/journeyOS/XiaoMiFlashSale.git
+[submodule "global_scripts"]
+	path = global_scripts
+	url = https://github.com/journeyOS/global_scripts.git
+[submodule "ai_scripts"]
+	path = ai_scripts
+	url = https://github.com/journeyOS/ai_scripts.git
+[submodule "JiraBot"]
+	path = JiraBot
+	url = https://github.com/journeyOS/JiraBot.git
+[submodule "aosp-mirror"]
+	path = aosp-mirror
+	url = https://github.com/journeyOS/aosp-mirror.git
+[submodule "Script"]
+	path = Script
+	url = https://github.com/journeyOS/Script.git
+[submodule "BotBtc"]
+	path = BotBtc
+	url = https://github.com/journeyOS/BotBtc.git
+[submodule "Pi"]
+	path = Pi
+	url = https://github.com/journeyOS/Pi.git
+[submodule "LiteProvider"]
+	path = LiteProvider
+	url = https://github.com/journeyOS/LiteProvider.git
+[submodule "LiteEdge"]
+	path = LiteEdge
+	url = https://github.com/journeyOS/LiteEdge.git
+[submodule "LiteNative"]
+	path = LiteNative
+	url = https://github.com/journeyOS/LiteNative.git
+[submodule "GamePlugin"]
+	path = GamePlugin
+	url = https://github.com/journeyOS/GamePlugin.git
+[submodule "base"]
+	path = base
+	url = https://github.com/journeyOS/base.git
+[submodule "I007Service"]
+	path = I007Service
+	url = https://github.com/journeyOS/I007Service.git
+[submodule "I007ServiceBintray"]
+	path = I007ServiceBintray
+	url = https://github.com/journeyOS/I007ServiceBintray.git
+[submodule "ServiceManagerBintray"]
+	path = ServiceManagerBintray
+	url = https://github.com/journeyOS/ServiceManagerBintray.git
+[submodule "ServiceManager"]
+	path = ServiceManager
+	url = https://github.com/journeyOS/ServiceManager.git
+[submodule "LiteRouterBintray"]
+	path = LiteRouterBintray
+	url = https://github.com/journeyOS/LiteRouterBintray.git
+[submodule "LiteRouter-annotation"]
+	path = LiteRouter-annotation
+	url = https://github.com/journeyOS/LiteRouter-annotation.git
+[submodule "LiteRouter-compiler"]
+	path = LiteRouter-compiler
+	url = https://github.com/journeyOS/LiteRouter-compiler.git
+[submodule "LiteRouter"]
+	path = LiteRouter
+	url = https://github.com/journeyOS/LiteRouter.git
+[submodule "AsZxing"]
+	path = AsZxing
+	url = https://github.com/journeyOS/AsZxing.git
+[submodule "LiteGithub"]
+	path = LiteGithub
+	url = https://github.com/journeyOS/LiteGithub.git
+[submodule "LiteBarrage"]
+	path = LiteBarrage
+	url = https://github.com/journeyOS/LiteBarrage.git
+[submodule "LiteWeather"]
+	path = LiteWeather
+	url = https://github.com/journeyOS/LiteWeather.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/journeyOS/blog.git
+[submodule "AirKiss"]
+	path = AirKiss
+	url = https://github.com/journeyOS/AirKiss.git
+[submodule "journeyOS.github.io"]
+	path = journeyOS.github.io
+	url = https://github.com/journeyOS/journeyOS.github.io.git
