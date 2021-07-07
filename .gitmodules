@@ -1,5 +1,5 @@
 [submodule "image_classifier"]
-	path = region_classifier
+	path = image_classifier
 	url = https://github.com/journeyOS/image_classifier.git
 [submodule "XiaoMiFlashSale"]
 	path = XiaoMiFlashSale
