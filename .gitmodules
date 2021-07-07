@@ -1,6 +1,6 @@
-[submodule "region_classifier"]
+[submodule "image_classifier"]
 	path = region_classifier
-	url = https://github.com/journeyOS/region_classifier.git
+	url = https://github.com/journeyOS/image_classifier.git
 [submodule "XiaoMiFlashSale"]
 	path = XiaoMiFlashSale
 	url = https://github.com/journeyOS/XiaoMiFlashSale.git
