@@ -20,7 +20,6 @@
     <remote name="origin"
             fetch="ssh://git@github.com/journeyOS/"/>
 
-
     <!-- remote server default config -->
     <default
             remote="origin"
@@ -28,6 +27,85 @@
             upstream="main"
             sync-j="4"/>
 
+    <!-- Android Studio building https://github.com/zxing/zxing -->
+    <!--<project name="AsZxing" path="AsZxing" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- my blog source md file -->
+    <project name="blog" path="blog" remote="origin" revision="master" upstream="master"/>
+
+    <!-- btc, eth...script -->
+    <!--<project name="BotBtc" path="BotBtc" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- android device feature -->
+    <project name="feature" path="feature" remote="origin"/>
+
+    <!-- global scripts -->
+    <project name="global_scripts" path="global_scripts" remote="origin"/>
+
+    <!-- I007Service -->
+    <project name="I007Service" path="I007Service" remote="origin" revision="master" upstream="master"/>
+
+    <!-- I007ServiceBintray -->
+    <!--<project name="I007ServiceBintray" path="I007ServiceBintray" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- Classification regions of deep neural networks -->
+    <project name="image_classifier" path="image_classifier" remote="origin" revision="tk" upstream="tk"/>
+
+    <!-- Android hidl service & java service... -->
+    <project name="J007Engine" path="J007Engine" remote="origin"/>
+
+    <!-- JiraBot -->
+    <!--<project name="JiraBot" path="JiraBot" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- journeyOS -->
+    <!--<project name="journeyOS" path="journeyOS" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- journeyOS.github.io -->
+    <!--<project name="journeyOS.github.io" path="journeyOS.github.io" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- An Android application which allows you received messages to screen -->
+    <project name="LiteBarrage" path="LiteBarrage" remote="origin" revision="master" upstream="master"/>
+
+    <!-- LiteEdge -->
+    <project name="LiteEdge" path="LiteEdge" remote="origin" revision="master" upstream="master"/>
+
+    <!-- LiteFramework -->
+    <project name="LiteFramework" path="LiteFramework" remote="origin"/>
+
+    <!-- LiteGithub -->
+    <project name="LiteGithub" path="LiteGithub" remote="origin" revision="master" upstream="master"/>
+
+    <!-- LiteNative -->
+    <project name="LiteNative" path="LiteNative" remote="origin" revision="master" upstream="master"/>
+
+    <!-- Lite provider is intended to ease up the creation of very simple Content Providers using annotations -->
+    <project name="LiteProvider" path="LiteProvider" remote="origin" revision="master" upstream="master"/>
+
+    <!-- LiteNative -->
+    <project name="LiteNative" path="LiteNative" remote="origin" revision="master" upstream="master"/>
+
+    <!-- LiteRouter -->
+    <!--<project name="LiteRouter" path="LiteRouter" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- LiteRouter-annotation -->
+    <!--<project name="LiteRouter-annotation" path="LiteRouter-annotation" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- LiteRouter-compiler -->
+    <!--<project name="LiteRouter-compiler" path="LiteRouter-compiler" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- LiteRouterBintray -->
+    <!--<project name="LiteRouterBintray" path="LiteRouterBintray" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- This app introduced architecture components which includes LiveData and ViewModel which facilitates developing Android app using MVVM pattern -->
+    <project name="LiteWeather" path="LiteWeather" remote="origin" revision="dev4.0" upstream="dev4.0"/>
+
+    <!-- LiteWidget -->
+    <project name="LiteWidget" path="LiteWidget" remote="origin"/>
+
+    <!-- raspberry pi projects -->
+    <!--<project name="Pi" path="Pi" remote="origin" revision="master" upstream="master"/>-->
+
+    <!-- add watermark on android screen -->
     <project name="watermark" path="watermark" remote="origin"/>
 
 </manifest>
