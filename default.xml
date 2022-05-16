@@ -81,9 +81,6 @@
     <!-- Lite provider is intended to ease up the creation of very simple Content Providers using annotations -->
     <project name="LiteProvider" path="LiteProvider" remote="origin" revision="master" upstream="master"/>
 
-    <!-- LiteNative -->
-    <project name="LiteNative" path="LiteNative" remote="origin" revision="master" upstream="master"/>
-
     <!-- LiteRouter -->
     <!--<project name="LiteRouter" path="LiteRouter" remote="origin" revision="master" upstream="master"/>-->
 
