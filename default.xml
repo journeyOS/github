@@ -17,18 +17,18 @@
 
 <manifest>
     <!-- remote server -->
-    <remote
-            name="origin"
-            fetch="git@github.com:journeyOS/"/>
+    <remote name="origin"
+            fetch="ssh://git@github.com/journeyOS/"/>
 
+
+    <!-- remote server default config -->
     <default
             remote="origin"
             revision="main"
-            sync-j="1"/>
+            upstream="main"
+            sync-j="4"/>
 
-    <project name="global_scripts" path="global_scripts" remote="origin"/>
-
-    <project name="watermark" path="watermark" remote="origin" revision="main" upstream="main"/>
+    <project name="watermark" path="watermark" remote="origin"/>
 
 </manifest>
 
