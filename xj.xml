@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2022 anqi.huang@outlook.com
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<manifest>
+    <!-- remote server -->
+    <remote name="origin"
+            fetch="ssh://git@gitlab.upuphone.com/"/>
+
+    <!-- remote server default config -->
+    <default
+            remote="origin"
+            revision="dev"
+            upstream="dev"
+            sync-j="8"/>
+
+    <!-- LiteRouter -->
+    <project name="LiteRouter" path="LiteRouter" remote="origin" revision="master" upstream="master"/>
+
+    <!-- ##################################### app eco ##################################### -->
+    <!-- Account -->
+    <project name="Account" path="app/eco/Account" remote="origin"/>
+    <!-- appmarket -->
+    <project name="appmarket" path="app/eco/appmarket" remote="origin"/>
+    <!-- Browser -->
+    <project name="Browser" path="app/eco/Browser" remote="origin"/>
+    <!-- Cloud -->
+    <project name="Cloud" path="app/eco/Cloud" remote="origin"/>
+    <!-- GameCenter -->
+    <project name="GameCenter" path="app/eco/GameCenter" remote="origin"/>
+    <!-- wallet -->
+    <project name="wallet" path="app/eco/wallet" remote="origin"/>
+    <!-- ##################################### app eco ##################################### -->
+
+    <!-- ##################################### app sysapps ##################################### -->
+    <!-- AiService -->
+    <project name="AiService" path="app/sysapps/AiService" remote="origin"/>
+    <!-- Alarm -->
+    <project name="Alarm" path="app/sysapps/Alarm" remote="origin"/>
+    <!-- BoxingMover -->
+    <project name="BoxingMover" path="app/sysapps/BoxingMover" remote="origin"/>
+    <!-- bxaod -->
+    <project name="bxaod" path="app/sysapps/bxaod" remote="origin"/>
+    <!-- Calculator -->
+    <project name="Calculator" path="app/sysapps/Calculator" remote="origin"/>
+    <!-- Calendar -->
+    <project name="Calendar" path="app/sysapps/Calendar" remote="origin"/>
+    <!-- Camera -->
+    <project name="Camera" path="app/sysapps/Camera" remote="origin"/>
+    <!-- FeedBack -->
+    <project name="FeedBack" path="app/sysapps/FeedBack" remote="origin"/>
+    <!-- FileManager -->
+    <project name="FileManager" path="app/sysapps/FileManager" remote="origin"/>
+    <!-- findservice -->
+    <project name="findservice" path="app/sysapps/findservice" remote="origin"/>
+    <!-- FOTA -->
+    <project name="FOTA" path="app/sysapps/FOTA" remote="origin"/>
+    <!-- Fuyiping -->
+    <project name="Fuyiping" path="app/sysapps/Fuyiping" remote="origin"/>
+    <!-- Gallery -->
+    <project name="Gallery" path="app/sysapps/Gallery" remote="origin"/>
+    <!-- GameAssistant -->
+    <project name="GameAssistant" path="app/sysapps/GameAssistant" remote="origin"/>
+    <!-- globalmanager -->
+    <project name="globalmanager" path="app/sysapps/globalmanager" remote="origin"/>
+    <!-- Launcher -->
+    <project name="Launcher" path="app/sysapps/Launcher" remote="origin"/>
+    <!-- LogCenter -->
+    <project name="LogCenter" path="app/sysapps/LogCenter" remote="origin"/>
+    <!-- Message -->
+    <project name="Message" path="app/sysapps/Message" remote="origin"/>
+    <!-- Note -->
+    <project name="Note" path="app/sysapps/Note" remote="origin"/>
+    <!-- PermissionController -->
+    <project name="PermissionController" path="app/sysapps/PermissionController" remote="origin"/>
+    <!-- Phone -->
+    <project name="Phone" path="app/sysapps/Phone" remote="origin"/>
+    <!-- PhoneButler -->
+    <project name="PhoneButler" path="app/sysapps/PhoneButler" remote="origin"/>
+    <!-- PrivacyManager -->
+    <project name="PrivacyManager" path="app/sysapps/PrivacyManager" remote="origin"/>
+    <!-- ScanCode -->
+    <project name="ScanCode" path="app/sysapps/ScanCode" remote="origin"/>
+    <!-- SetupWizard -->
+    <project name="SetupWizard" path="app/sysapps/SetupWizard" remote="origin"/>
+    <!-- StarChat -->
+    <project name="StarChat" path="app/sysapps/StarChat" remote="origin"/>
+    <!-- SysPermissionController -->
+    <project name="SysPermissionController" path="app/sysapps/SysPermissionController" remote="origin"/>
+    <!-- Theme -->
+    <project name="Theme" path="app/sysapps/Theme" remote="origin"/>
+    <!-- ums -->
+    <project name="ums" path="app/sysapps/ums" remote="origin"/>
+    <!-- Wallpaper -->
+    <project name="Wallpaper" path="app/sysapps/Wallpaper" remote="origin"/>
+    <!-- Weather -->
+    <project name="Weather" path="app/sysapps/Weather" remote="origin"/>
+    <!-- ##################################### app sysapps ##################################### -->
+
+    <!-- ##################################### common biz eco ##################################### -->
+    <!-- ApkDiff -->
+    <project name="ApkDiff" path="common/biz/eco/ApkDiff" remote="origin"/>
+    <!-- PackageInstallerLib -->
+    <project name="PackageInstallerLib" path="common/biz/eco/PackageInstallerLib" remote="origin"/>
+    <!-- Push -->
+    <project name="Push" path="common/biz/eco/Push" remote="origin"/>
+    <!-- ##################################### common biz eco ##################################### -->
+
+    <!-- ##################################### common biz system ##################################### -->
+    <!-- ProxyService -->
+    <project name="ProxyService" path="common/biz/system/ProxyService" remote="origin"/>
+    <!-- ##################################### common biz system ##################################### -->
+
+    <!-- ##################################### common core ##################################### -->
+    <!-- CommonExt -->
+    <project name="CommonExt" path="common/core/CommonExt" remote="origin"/>
+    <!-- DataTracker -->
+    <project name="DataTracker" path="common/core/DataTracker" remote="origin"/>
+    <!-- FileDownloader -->
+    <project name="FileDownloader" path="common/core/FileDownloader" remote="origin"/>
+    <!-- GradlePlugins -->
+    <project name="GradlePlugins" path="common/core/GradlePlugins" remote="origin"/>
+    <!-- IndicatorView -->
+    <project name="IndicatorView" path="common/core/IndicatorView" remote="origin"/>
+    <!-- KVLib -->
+    <project name="KVLib" path="common/core/KVLib" remote="origin"/>
+    <!-- LiveDataBus -->
+    <project name="LiveDataBus" path="common/core/LiveDataBus" remote="origin"/>
+    <!-- Logger -->
+    <project name="Logger" path="common/core/Logger" remote="origin"/>
+    <!-- OAID -->
+    <project name="OAID" path="common/core/OAID" remote="origin"/>
+    <!-- PermissionRequester -->
+    <project name="PermissionRequester" path="common/core/PermissionRequester" remote="origin"/>
+    <!-- Sentry -->
+    <project name="Sentry" path="common/core/Sentry" remote="origin"/>
+    <!-- uupimageloader -->
+    <project name="uupimageloader" path="common/core/uupimageloader" remote="origin"/>
+    <!-- unid -->
+    <project name="unid" path="common/core/unid" remote="origin"/>
+    <!-- USkinLoader -->
+    <project name="USkinLoader" path="common/core/USkinLoader" remote="origin"/>
+    <!-- XUI-Lib -->
+    <project name="XUI-Lib" path="common/core/XUI-Lib" remote="origin"/>
+    <!-- xui-lib-compose -->
+    <project name="xui-lib-compose" path="common/core/xui-lib-compose" remote="origin"/>
+    <!-- ##################################### common core ##################################### -->
+
+    <!-- ##################################### common ##################################### -->
+    <!-- AppTemplate -->
+    <!--<project name="AppTemplate" path="common/AppTemplate" remote="origin"/>-->
+    <!-- ##################################### common ##################################### -->
+
+    <!-- ##################################### tool ##################################### -->
+    <!-- AppTemplate -->
+    <project name="ezenv-shell" path="tool/ezenv-shell" remote="origin" revision="master" upstream="master"/>
+    <!-- ##################################### tool ##################################### -->
+
+</manifest>
